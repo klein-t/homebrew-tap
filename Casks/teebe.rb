@@ -2,13 +2,13 @@ cask "teebe" do
   version "0.8.1"
   sha256 "668ef876ac516b1889232c034fc320d3b2712f7342a6bf1000825c02836b5c40"
 
-  url "https://github.com/klein-t/teebe/releases/download/v#{version}/teebe-v#{version}.zip"
+  url "https://dl.teebe.io/v#{version}/teebe-v#{version}.zip"
   name "teebe"
   desc "Git worktree manager"
   homepage "https://teebe.io/"
 
   livecheck do
-    url :url
+    url "https://github.com/klein-t/teebe"
     strategy :github_latest
   end
 
