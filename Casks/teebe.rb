@@ -1,6 +1,6 @@
 cask "teebe" do
-  version "0.8.1"
-  sha256 "668ef876ac516b1889232c034fc320d3b2712f7342a6bf1000825c02836b5c40"
+  version "0.9.0"
+  sha256 "fa65ba7ac3d4e64ed53311a165266725ecedcaa454557bd073b21dca212d8e2a"
 
   url "https://dl.teebe.io/v#{version}/teebe-v#{version}.zip"
   name "teebe"
